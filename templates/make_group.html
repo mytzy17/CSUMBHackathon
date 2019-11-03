@@ -1,0 +1,89 @@
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Make a Group</title>
+    <h1>Make a Group</h1>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form method=POST action="/make_group">
+      <fieldset class="contactInfo">
+        <legend> Please input group information </legend>
+          Contact Info: <input type="text" name="input_contact">
+          <br>
+          Input Time: <input type="text" name="input_time" >
+          <br>
+          Input Route: <input type="text" name="input_route" >
+          <br>
+          Number of People: <input type="text" name="input_number_of_people">
+      </fieldset>
+    <input type ="submit" value="Go!">
+  </body>
+</html>
+-->
+
+
+<!DOCTYPE html>
+
+<style type="text/css">
+body{
+  background-image: url("https://www.tokkoro.com/picsup/2911736-photography-architecture-city-cityscape-clouds-reflection-sunset-sun-landscape___landscape-nature-wallpapers.jpg");
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px
+}
+.button1{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(204, 76, 72); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+form
+{
+  border-radius: 5px;
+  background-color: rgba(255, 253, 217, 0.6);
+  padding: 20px;
+}
+</style>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Make A Group</title>
+    <h1>Make A Group</h1>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <a href="/">
+    <img align = "right" src="https://smobi.co.uk/wp-content/uploads/2018/06/home-button-repairs-mobile-phones.png">
+  </a>
+    <form method=POST action="/make_group">
+      <fieldset class="contactInfo">
+        <legend> Input Group Information </legend>
+          Contact Information <br>
+          <textarea rows="4" cols="50" placeholder="example@gmail.com" type="text" name="input_contact"></textarea>
+          <br>
+          Input Schedule <br>
+          <textarea rows="1" cols="100" type="text" name="input_time"></textarea>
+          <br>
+          Input Route <br>
+          <textarea rows="1" cols="100" type="text" name="input_route"></textarea>
+          <br>
+          Number of People <br> 
+          <textarea rows="1" cols="100" type="text" name="input_number_of_people"></textarea>
+      </fieldset>
+    <input class = "button1" type ="submit" value="Go!">
+</form>
+  </body>
+</html>
